@@ -1,0 +1,14 @@
+dist
+build
+*.spec
+.DS_Store
+__pycache__
+tmp
+spec/param.json
+src/backup/
+.venv*
+.pyarmor/
+pyarmor.error.log
+*.log
+scripts/win/version.json
+scripts/mac/version.json

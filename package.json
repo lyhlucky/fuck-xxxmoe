@@ -1,0 +1,16 @@
+{
+  "name": "video-download-scripts",
+  "version": "2.0.0",
+  "repository": "git@github.com:luckydogsoft/video-download-scripts.git",
+  "author": "mars",
+  "license": "MIT",
+  "devDependencies": {
+    "archiver": "^5.3.1",
+    "glob": "^9.3.4",
+    "javascript-obfuscator": "^4.0.2",
+    "minimist": "^1.2.8"
+  },
+  "scripts": {
+    "build": "node obfuscate.js"
+  }
+}
